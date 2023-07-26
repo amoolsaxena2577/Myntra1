@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+        
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+
+    background-color: rgba(128, 0, 128, 0.575);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 64.3rem;
+}
+section{
+    height: 38rem;
+    width: 50rem;
+    margin: auto;
+    /* margin-top: 18rem; */
+    border-radius:0.5rem;
+    background-color: white;
+}
+h1{
+    color: purple;
+    padding-top: 1rem;
+    font-size: 4rem;
+    text-align: center;
+    
+    
+    
+}
+.content{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+h2{
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    color: white;
+    background-color: purple;
+    font-size: 1.8rem;
+
+}
+header section .content .option{
+    background-color: white;
+    border: 0.1rem solid purple;
+    margin: 1rem 0 1rem 0;
+    padding: 0.8rem;
+    color: purple;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    display: flex;
+}
+header section .content .btn{
+    background-color: rgba(128, 0, 128, 0.829);
+    color: white;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    width: 9rem;
+    margin: auto;
+    
+    
+}
+header section .content .option:hover{
+    color: white;
+    background-color: rgba(128, 0, 128, 0.596);
+}
+@media screen and (max-width:480px){
+    :root{
+        font-size: 40%;
+    }
+    
+}
+@media screen and (max-width:780px) and (min-width:479){
+    :root{
+        font-size: 52%;
+    }
+    
+}
